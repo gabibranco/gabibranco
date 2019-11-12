@@ -1,0 +1,60 @@
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Forum', serif;
+}
+
+h1 {
+  text-shadow: 2px 2px #D0CDE1;
+}
+
+body {
+  background-color: #FDD2C3;
+  color: #0B0A0A;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100px;
+}
+
+/*.gif {
+  background-image: linear-gradient(rgba(208,205,225,0.8),rgba(253,210,195,0.8)), url('assets/Sequence01.gif');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  margin-top: -22px;
+}*/
+
+.white-box {
+  padding-top: 30px;
+  background-color: white;
+  color: #0B0A0A;
+  border-radius: 50px 50px 0px 0px;
+  min-height: calc(100vh - 60px);
+}
+
+.white-box img {
+  width: 80%;
+}
+
+.light-box {
+  margin-top: 20px;
+  padding: 36px;
+  background-color: #FEF6F4;
+  color: #0B0A0A;
+  border-radius: 50px 50px 0px 0px;
+}
+
+
+.white-box {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
