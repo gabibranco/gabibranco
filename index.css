@@ -80,6 +80,12 @@ body {
   border: 1px solid #FDD2C3;
 }
 
+.story-pdf img {
+  max-width: 90%;
+  border-radius: 3px;
+  border: 1px solid #FDD2C3;
+}
+
 .scroll {
   overflow: scroll;
 }
@@ -97,11 +103,6 @@ a {
   text-decoration: underline;
 }
 
-a:hover, u:hover {
-  color: #FDD2C3;
-  cursor: pointer;
-  transition: 0.3s ease;
-}
 
 .app img {
   width: 100%;
@@ -112,17 +113,15 @@ a:hover, u:hover {
   width: 150px;
 }
 
-.app img:hover {
+.close:hover, a:hover, u:hover {
+  color: #FDD2C3;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.app img:hover, .story-pdf img:hover, .app-gif img:hover, .resume img:hover {
   opacity: 0.6;
-  transform: scale(1.05);
+  transform: scale(1.02);
   transition: 0.4s;
   cursor: pointer;
 }
-
-.resume img:hover {
-  opacity: 0.6;
-  transform: scale(1.05);
-  transition: 0.4s;
-  cursor: pointer;
-}
-
