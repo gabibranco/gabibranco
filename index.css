@@ -31,6 +31,7 @@ body {
 .gif {
   background-image: linear-gradient(rgba(208,205,225,0.8),rgba(253,210,195,0.8)), url('assets/gabri.gif');
   background-repeat: no-repeat;
+  border-radius: 50px 50px 0px 0px;
   background-position: center;
   background-size: cover;
   height: 50vh;
@@ -43,6 +44,7 @@ body {
 
 .white-box {
   padding-top: 30px;
+  background-image: linear-gradient(rgba(208,205,225,0.6),rgba(253,210,195,0.8));
   background-color: white;
   color: #0B0A0A;
   border-radius: 50px 50px 0px 0px;
@@ -58,9 +60,11 @@ body {
 
 .light-box {
   margin-top: -50px;
+  background-image: linear-gradient(rgba(253,210,195,0.6),rgba(208,205,225,0.3));
   padding: 36px 36px 0 36px;
+  /*border: 3px solid #FDD2C3;*/
   color: #0B0A0A;
-  background-color: #FEF6F4;
+  background-color: white;
   border-radius: 50px 50px 0px 0px;
 }
 
@@ -74,10 +78,12 @@ body {
   height: 60px;
 }
 
+.app-gif {
+  border-radius:  50px 50px 0px 0px;
+}
+
 .app-gif img {
   max-height: 70vh;
-  border-radius: 3px;
-  border: 1px solid #FDD2C3;
 }
 
 .story-pdf img {
@@ -88,6 +94,11 @@ body {
 
 .scroll {
   overflow: scroll;
+}
+
+u {
+  text-decoration: none;
+  background: #FDD2C3;
 }
 
 .content {
@@ -113,8 +124,14 @@ a {
   width: 150px;
 }
 
-.close:hover, a:hover, u:hover {
+.close:hover, a:hover {
   color: #FDD2C3;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+u:hover {
+  color: #FEF6F4;
   cursor: pointer;
   transition: 0.3s ease;
 }
