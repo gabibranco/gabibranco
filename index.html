@@ -19,8 +19,9 @@
     </div>
     <div class="content">
       <div class="white-box">
-        <div class="text-center">
-          <img src="assets/undraw_exciting_news_ksse.svg" alt="">
+        <div class="text-center header">
+          <img src="assets/undraw_exciting_news_ksse.svg" class="svg-girl" alt="">
+          <a href="assets/GabiBranco.pdf" target="_blank" class="resume"><img src="assets/resume.svg" alt=""></a>
           <div class="about">
             <p><strong>I'm a reporter, a problem-solver and a user advocate.</strong></p>
           </div>
@@ -42,18 +43,18 @@
                   <div class="my-work">
                     <div class="row">
                       <div class="col-4">
-                        <div class="app">
-                          <img src="assets/OnePlanet.gif" alt="">
+                        <div class="app" data-toggle="modal" data-target="#onePlanetModal">
+                          <img src="assets/OnePlanet.jpg" alt="">
                         </div>
                       </div>
                       <div class="col-4">
-                        <div class="app">
-                          <img src="assets/OnePlanet.gif" alt="">
+                        <div class="app" data-toggle="modal" data-target="#AlfredModal">
+                          <img src="assets/Alfred.jpg" alt="">
                         </div>
                       </div>
                       <div class="col-4">
-                        <div class="app">
-                          <img src="assets/OnePlanet.gif" alt="">
+                        <div class="app" data-toggle="modal" data-target="#PlantasticModal">
+                          <img src="assets/Plantastic.jpg" alt="">
                         </div>
                       </div>
                     </div>
@@ -110,6 +111,68 @@
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="onePlanetModal" tabindex="-1" role="dialog" aria-labelledby="onePlanetModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="onePlanetModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="AlfredModal" tabindex="-1" role="dialog" aria-labelledby="AlfredModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="AlfredModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <div class="modal fade" id="PlantasticModal" tabindex="-1" role="dialog" aria-labelledby="PlantasticModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="PlantasticModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

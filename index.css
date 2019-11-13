@@ -15,6 +15,12 @@ body {
   color: #0B0A0A;
 }
 
+.resume {
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+
 .intro {
   display: flex;
   align-items: center;
@@ -31,14 +37,19 @@ body {
   margin: 36px -36px 0 -36px;
 }
 
+.header {
+  position: relative;
+}
+
 .white-box {
   padding-top: 30px;
   background-color: white;
   color: #0B0A0A;
+  /*z-index: -1;*/
   border-radius: 50px 50px 0px 0px;
 }
 
-.white-box img {
+.svg-girl {
   width: 80%;
 }
 
@@ -71,6 +82,24 @@ u:hover {
 
 .app img {
   width: 100%;
+  margin-top: 20px;
 }
 
+.resume img {
+  width: 80%;
+}
+
+.app img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.resume img:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+  transition: 0.4s;
+  cursor: pointer;
+}
 
