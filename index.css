@@ -2,7 +2,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Forum', serif;
 }
 
-.card-body, .about {
+p, .card-body, .about {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -72,6 +72,14 @@ body {
 
 .modal-header {
   border-bottom: none;
+  height: 60px;
+}
+
+.app-gif img {
+  /*padding: 30px;*/
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #FDD2C3;
 }
 
 .content {
@@ -82,7 +90,12 @@ body {
   min-height: calc(100vh - 100px);
 }
 
-u:hover {
+a {
+  color: #0B0A0A;
+  text-decoration: underline;
+}
+
+a:hover, u:hover {
   color: #FDD2C3;
   cursor: pointer;
   transition: 0.3s ease;
