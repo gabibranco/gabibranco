@@ -45,7 +45,6 @@ body {
   padding-top: 30px;
   background-color: white;
   color: #0B0A0A;
-  /*z-index: -1;*/
   border-radius: 50px 50px 0px 0px;
 }
 
@@ -76,10 +75,13 @@ body {
 }
 
 .app-gif img {
-  /*padding: 30px;*/
   max-height: 70vh;
   border-radius: 3px;
   border: 1px solid #FDD2C3;
+}
+
+.scroll {
+  overflow: scroll;
 }
 
 .content {
@@ -111,14 +113,14 @@ a:hover, u:hover {
 }
 
 .app img:hover {
-  opacity: 0.8;
+  opacity: 0.6;
   transform: scale(1.05);
   transition: 0.4s;
   cursor: pointer;
 }
 
 .resume img:hover {
-  opacity: 0.8;
+  opacity: 0.6;
   transform: scale(1.05);
   transition: 0.4s;
   cursor: pointer;
