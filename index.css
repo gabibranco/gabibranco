@@ -77,7 +77,7 @@ body {
 
 .app-gif img {
   /*padding: 30px;*/
-  width: 100%;
+  max-height: 70vh;
   border-radius: 3px;
   border: 1px solid #FDD2C3;
 }
