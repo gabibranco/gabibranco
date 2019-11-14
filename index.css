@@ -129,7 +129,7 @@ u:hover {
   transition: 0.3s ease;
 }
 
-.app img:hover, .story-pdf img:hover, .app-gif img:hover, .resume img:hover {
+.app img:hover, .story-pdf img:hover, .resume img:hover {
   opacity: 0.6;
   transform: scale(1.02);
   transition: 0.4s;
