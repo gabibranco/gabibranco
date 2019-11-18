@@ -123,6 +123,12 @@ a {
   text-decoration: none;
 }
 
+.coding-brussels {
+  max-width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid #FDD2C3;
+}
+
 u:hover {
   color: #FEF6F4;
   cursor: pointer;
@@ -134,4 +140,10 @@ u:hover {
   transform: scale(1.02);
   transition: 0.4s;
   cursor: pointer;
+}
+
+.gallery-pic {
+  width: 100%;
+  margin: 20px 0;
+  border: 1px solid #FDD2C3;
 }
