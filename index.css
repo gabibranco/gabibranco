@@ -130,7 +130,8 @@ a {
 }
 
 u:hover {
-  color: #FEF6F4;
+  background-color: #FEF6F4;
+  color: ;
   cursor: pointer;
   transition: 0.3s ease;
 }
@@ -144,6 +145,6 @@ u:hover {
 
 .gallery-pic {
   width: 100%;
-  margin: 20px 0;
+  margin-bottom: 20px;
   border: 1px solid #FDD2C3;
 }
