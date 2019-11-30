@@ -1,67 +1,26 @@
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Forum', serif;
+  font-family: 'Alata', sans-serif;
 }
 
 p, .card-body, .about {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Red Hat Text', sans-serif;
 }
 
 body {
-  background-color: #FDD2C3;
   color: #0B0A0A;
-}
-
-.resume {
-  position: absolute;
-  top: 0;
-  right: 10%;
-}
-
-.intro {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 100px;
+  background-color: #FEF6F4;
 }
 
 .gif {
   background-image: linear-gradient(rgba(208,205,225,0.8),rgba(253,210,195,0.8)), url('assets/gabri.gif');
   background-repeat: no-repeat;
-  border-radius: 50px 50px 0px 0px;
-  background-position: center;
   background-size: cover;
+  background-position: center;
   height: 50vh;
-  margin: 36px -36px 0 -36px;
 }
 
-.header {
-  position: relative;
-}
-
-.white-box {
-  padding-top: 30px;
-  color: #0B0A0A;
-  border-radius: 50px 50px 0px 0px;
-}
-
-.svg-girl {
-  width: 80%;
-}
-
-.about {
-  padding: 36px 50px 50px 50px;
-}
-
-.light-box {
-  margin-top: -50px;
-  padding: 36px 36px 0 36px;
-  color: #0B0A0A;
-  background-color: #FEF6F4;
-  border-radius: 50px 50px 0px 0px;
-}
 
 .modal-content {
-  background-color: #FEF6F4;
   border: none;
 }
 
@@ -76,6 +35,10 @@ body {
 
 .app-gif img {
   max-height: 70vh;
+}
+
+.intro {
+  margin: 20px 0;
 }
 
 .story-pdf img {
@@ -94,7 +57,6 @@ u {
 }
 
 .content {
-  background-color: #FEF6F4;
   border-radius: 50px 50px 0px 0px;
   max-width: 800px;
   margin: 0 auto;
@@ -105,21 +67,29 @@ a {
   color: #0B0A0A;
 }
 
+.block {
+  min-height: 50vh;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
 
 .app img {
   width: 100%;
   margin-top: 20px;
 }
 
-.resume img {
-  width: 150px;
-}
-
-.close:hover, a:hover {
+.close:hover {
   color: #FDD2C3;
   cursor: pointer;
   transition: 0.3s ease;
   text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #0B0A0A;
 }
 
 .coding-brussels {
